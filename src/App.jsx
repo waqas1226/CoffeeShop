@@ -13,7 +13,7 @@ import SingleProduct from './components/SingleProduct';
 import Cart from './components/Cart';
 import BlogPost from './components/Blog_single';
 import CheckoutPage from './components/Checkout';
-import ScrollToTop from './components/Helping Files/ScrollToTop';
+import ScrollToTop from './components/HelpingFiles/ScrollToTop';
 import Register from './components/Register';
 import Login from './components/Login';
 import ProtectedRoute from './components/ProtectedRoute';

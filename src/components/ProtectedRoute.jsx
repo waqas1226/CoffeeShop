@@ -1,4 +1,4 @@
-import { useUser } from './Helping Files/UserContext';
+import { useUser } from './HelpingFiles/UserContext';
 import { Navigate } from 'react-router';
 
 const ProtectedRoute = ({ children }) => {

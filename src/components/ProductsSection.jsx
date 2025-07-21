@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
-import { categories } from './Helping Files/menuData';
+import { categories } from './HelpingFiles/menuData';
 import { Link } from 'react-router';
-import { useCart } from './Helping Files/CartContext';
+import { useCart } from './HelpingFiles/CartContext';
 
 const ProductsSection = () => {
   const [activeTab, setActiveTab] = useState('main');
@@ -14,11 +14,12 @@ const { addToCart } = useCart();
   const handleAddToCart = (product) => {
     // Add to cart logic here
     addToCart(product, quantity, selectedSize);
-    console.log('Added to cart:', {
-      product,
-      quantity,
-      selectedSize
-    });}
+    // console.log('Added to cart:', {
+    //   product,
+    //   quantity,
+    //   selectedSize
+    // });
+  }
    const activeCategory = categories.find(cat => cat.id === activeTab);
 
   return (

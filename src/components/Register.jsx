@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router';
-import { auth, registerUser, signInWithGoogle } from './Helping Files/firebase';
-import { useUser } from './Helping Files/UserContext';
+import { auth, registerUser, signInWithGoogle } from './HelpingFiles/firebase';
+import { useUser } from './HelpingFiles/UserContext';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
     faUser,
@@ -34,10 +34,10 @@ const Register = () => {
     updateProfile(auth.currentUser, {
       displayName: formData.name
     }).then(() => {
-      console.log("Profile updated");
+      // console.log("Profile updated");
       navigate('/');
     }).catch((error) => {
-      console.error("Error updating profile:", error);
+      // console.error("Error updating profile:", error);
     });
   }
 }, [currentUser, formData.name, navigate]);

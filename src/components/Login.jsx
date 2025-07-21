@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link, useNavigate } from 'react-router';
-import { signInWithGoogle, loginUser } from './Helping Files/firebase';
-import { useUser } from './Helping Files/UserContext';
+import { signInWithGoogle, loginUser } from './HelpingFiles/firebase';
+import { useUser } from './HelpingFiles/UserContext';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 

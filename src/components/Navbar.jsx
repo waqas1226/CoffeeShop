@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { NavLink, useNavigate } from 'react-router';
-import { useCart } from './Helping Files/CartContext';
-import { useUser } from './Helping Files/UserContext';
+import { useCart } from './HelpingFiles/CartContext';
+import { useUser } from './HelpingFiles/UserContext';
 import { getAuth, updateProfile } from 'firebase/auth';
 
 const Navbar = () => {
@@ -38,7 +38,7 @@ const navigate = useNavigate();
     setUserDropdownOpen(false);
 navigate('/logout')
   };
-console.log(user)
+// console.log(user)
 
   return (
     <nav className="text-white bg-transparent p-4 w-full z-50 fixed top-0 left-0 right-0 border-b-gray-300 border-[0.5px]">

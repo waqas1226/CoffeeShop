@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useCart } from './Helping Files/CartContext';
+import { useCart } from './HelpingFiles/CartContext';
 import Navbar from './Navbar';
 import ProductsSection from './ProductsSection';
 import Footer from './Footer';

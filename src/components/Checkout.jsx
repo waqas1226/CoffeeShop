@@ -12,7 +12,7 @@ import {
   faPlus,
   faTrash
 } from '@fortawesome/free-solid-svg-icons';
-import { useCart } from './Helping Files/CartContext';
+import { useCart } from './HelpingFiles/CartContext';
 
 const CheckoutPage = () => {
   // Form state

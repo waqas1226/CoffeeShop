@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router';
-import { logoutUser } from './Helping Files/firebase';
-import { useUser } from './Helping Files/UserContext';
+import { logoutUser } from './HelpingFiles/firebase';
+import { useUser } from './HelpingFiles/UserContext';
 
 const Logout = () => {
   const navigate = useNavigate();

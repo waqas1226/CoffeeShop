@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'motion/react';
 
-import { menuCategories } from './Helping Files/menuData';
+import { menuCategories } from './HelpingFiles/menuData';
 import { Link } from 'react-router';
 // import MenuCategory from './MenuCategory';
 

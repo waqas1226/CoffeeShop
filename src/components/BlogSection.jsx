@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'motion/react';
-import { blogPosts } from './Helping Files/menuData';
+import { blogPosts } from './HelpingFiles/menuData';
 import { Link } from 'react-router';
 
 

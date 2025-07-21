@@ -12,7 +12,6 @@ import TestimonialsSection from './Testimony'
 import BlogSection from './BlogSection'
 import BookingSection from './BookingSection'
 import Footer from './Footer'
-import FacebookPost from './Helping Files/FacebookPost'
 
 function Home() {
 

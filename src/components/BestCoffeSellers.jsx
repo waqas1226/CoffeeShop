@@ -8,7 +8,7 @@ import menu_2 from '../images/menu-2.jpg';
 import menu_3 from '../images/menu-3.jpg';
 import menu_4 from '../images/menu-4.jpg';
 import { Link } from 'react-router';
-import { useCart } from './Helping Files/CartContext';
+import { useCart } from './HelpingFiles/CartContext';
 //  backgroundImage: `url(${menu-1})`
 
 

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'motion/react';
 import { useLocation } from 'react-router';
-import { useCart } from './Helping Files/CartContext';
+import { useCart } from './HelpingFiles/CartContext';
 
 import Navbar from './Navbar';
 import Carousel from './Carousel';
@@ -26,11 +26,11 @@ const SingleProduct = () => {
   const handleAddToCart = () => {
     // Add to cart logic here
     addToCart(product, quantity, selectedSize);
-    console.log('Added to cart:', {
-      product,
-      quantity,
-      selectedSize
-    });
+    // console.log('Added to cart:', {
+    //   product,
+    //   quantity,
+    //   selectedSize
+    // });
     // Redirect or show success message
   };
 
