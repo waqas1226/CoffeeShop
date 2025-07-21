@@ -10,15 +10,17 @@ import {
   updateProfile
 } from "firebase/auth";
 
+
 const firebaseConfig = {
-  apiKey: "AIzaSyDHBTTbGi3dTInodIGYe8eIgJhgW431ilw",
-  authDomain: "sports-shop-a0ea7.firebaseapp.com",
-  databaseURL: "https://sports-shop-a0ea7-default-rtdb.asia-southeast1.firebasedatabase.app",
-  projectId: "sports-shop-a0ea7",
-  storageBucket: "sports-shop-a0ea7.appspot.com",
-  messagingSenderId: "540137950637",
-  appId: "1:540137950637:web:2f466c41ef029532f5a524"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
+
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
