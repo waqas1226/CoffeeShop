@@ -19,7 +19,7 @@ const Cart = () => {
   return (
     <>
       <Navbar/>
-      <section className="py-8 pt-12 md:py-16 bg-gray-900 min-h-screen">
+      <section className="py-8 pt-28 pb-6 bg-gray-900 min-h-screen">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="max-w-6xl mx-auto">
             {/* Cart Title */}

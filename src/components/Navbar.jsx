@@ -41,9 +41,9 @@ navigate('/logout')
 // console.log(user)
 
   return (
-    <nav className="text-white bg-transparent p-4 w-full z-50 fixed top-0 left-0 right-0 border-b-gray-300 border-[0.5px]">
-      <div className="mx-auto px-4 sm:px-6 lg:px-8 w-full flex lg:justify-between items-center ">
-        <NavLink to="/" className="text-4xl font-bold">
+    <nav className="text-white bg-transparent py-4 px-2 w-full z-50 fixed top-0 left-0 right-0 border-b-gray-300 border-[0.5px]">
+      <div className="mx-auto px-2 sm:px-6 lg:px-8 w-full flex lg:justify-between items-center ">
+        <NavLink to="/" className="text-3xl sm:text-4xl font-bold">
           Coffee<small className="text-yellow-400">Blend</small>
         </NavLink>
         {/* Mobile menu button */}
